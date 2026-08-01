@@ -1,0 +1,1 @@
+print(letter.replace("<|name|>", input("ente your name")).replace("<|date|>", input("enter a date")))

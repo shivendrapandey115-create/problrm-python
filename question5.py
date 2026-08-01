@@ -1,6 +1,3 @@
-# Write a python program to find an average of two number 
-# entered n=by the user
-a = int(input("enter a number a:"))
-b = int(input("enter a number b:"))
-average = (a + b)/2
-print(average)
+# write a program to format the following letter using escape sequence characters
+letter = "rudra you are a good boy,\n\tThat what i want to tell you.\nThank you"
+print(letter)

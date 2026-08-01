@@ -1,5 +1,6 @@
-# write a python program to find remainder when a numberis divided by z
-a = int(input("enter a number a"))
-b = int(input("enter a number b"))
-remainder = a % b
-print(remainder)
+# write aprongram to fill in aletter template given below with 
+# name and date
+letter = '''dear <|name|>,
+you are selecter!
+<|date|>'''
+print(letter.replace("<|name|>", input("ente your name")).replace("<|date|>", input("enter a date")))
